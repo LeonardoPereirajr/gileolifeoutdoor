@@ -1,9 +1,9 @@
-package com.example.crud.domain.product;
+package com.example.crud.domain.events;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
-public record RequestProduct(
+public record RequestEvents(
         String id,
 
         @NotBlank

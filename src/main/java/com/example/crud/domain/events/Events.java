@@ -1,18 +1,16 @@
-package com.example.crud.domain.product;
+package com.example.crud.domain.events;
 
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.UUID;
-
-@Table(name="product")
-@Entity(name="product")
+@Table(name="events")
+@Entity(name="events")
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode(of = "id")
-public class Product {
+public class Events {
     @Id @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
 
@@ -22,9 +20,9 @@ public class Product {
 
     private Boolean active = true;
 
-    public Product(RequestProduct requestProduct){
-        this.name = requestProduct.name();
-        this.price_in_cents = requestProduct.price_in_cents();
+    public Events(RequestEvents requestEvents){
+        this.name = requestEvents.name();
+        this.price_in_cents = requestEvents.price_in_cents();
         this.active = true;
     }
 }
