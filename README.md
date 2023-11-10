@@ -1,7 +1,11 @@
-# Simple CRUD
-This repository contains a simple CRUD project built using Java Spring. The aim of this repository is to practice and share how you can build all CRUD Methods using Java Spring.
+# Gi Leo Life outdoor - Project APP TREKKINGS
+This repository contains a project built using Java Spring.
 
-This project was build during a [live in my Youtube Channel](https://www.youtube.com/watch?v=tP6wtEaCnSI).
+The project is made up of some entities, including:
+
+ - Users: Customers who will participate in events with the gileolifeoutdoor team
+ - Events: Events that the team plans to take participants to. More common are trekkings in places that are sparsely populated and difficult to access.
+ - Access: For admin users to manage the app.
 
 ## Table of Contents
 
