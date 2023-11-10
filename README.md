@@ -19,7 +19,7 @@ The project is made up of some entities, including:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Fernanda-Kipper/live-crud-java-spring.git
+git clone https://github.com/LeonardoPereirajr/gileolifeoutdoor.git
 ```
 
 2. Install dependencies with Maven
